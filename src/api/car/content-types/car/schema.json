@@ -4,7 +4,8 @@
   "info": {
     "singularName": "car",
     "pluralName": "cars",
-    "displayName": "car"
+    "displayName": "car",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -28,6 +29,14 @@
     },
     "probeg": {
       "type": "biginteger"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

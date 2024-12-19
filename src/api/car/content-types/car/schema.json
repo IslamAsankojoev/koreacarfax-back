@@ -4,7 +4,7 @@
   "info": {
     "singularName": "car",
     "pluralName": "cars",
-    "displayName": "car",
+    "displayName": "Car",
     "description": ""
   },
   "options": {
@@ -31,12 +31,16 @@
       "type": "biginteger"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "car_status": {
+      "type": "string"
     }
   }
 }
